@@ -44,14 +44,14 @@ also i augmented few dataset to overcome overfitting issue
 
  in this [URL](https://drive.google.com/file/d/167VhIO7YLgg-p_aiguNkngFShOhpYnUe/view?usp=sharing) can be found the overall dataset which i used to train the model. 
 
- ## Files structure
+ <!-- ## Files structure
 
 | File Name        | Description |
 | -----------      | ----------- |
 | eda.ipynb        | This file contains preprocessing steps, data augmentation, and exploratory data analysis|
 | model.ipynb      | This file contains code of model building and training steps        |
 | script.py        | This file takes two parameters. one is ckpt file path and another one is data directory file path        |
-|categorized_resumes.csv| This CSV file contains the file names of resumes corresponding to their predicted categories.|
+|categorized_resumes.csv| This CSV file contains the file names of resumes corresponding to their predicted categories.| -->
 
  ## Inferance
 
