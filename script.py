@@ -54,7 +54,7 @@ class TextModel(nn.Module):
         super(TextModel, self).__init__()
         self.bert = model_root
         self.intermediate_layer = nn.Linear(768, 512)
-        self.dropout = nn.Dropout(dropout_prob)  # Dropout layer added
+        self.dropout = nn.Dropout(dropout_prob)
         self.output_layer = nn.Linear(512, num_classes)
         
         # L2 regularization added to linear layers
@@ -68,7 +68,7 @@ class TextModel(nn.Module):
     def forward(self, input_ids, attention_mask):
         outputs = self.bert(input_ids, attention_mask=attention_mask)[1]
         intermediate = self.intermediate_layer(outputs)
-        intermediate = self.dropout(intermediate)  # Apply dropout
+        intermediate = self.dropout(intermediate)
         logits = self.output_layer(intermediate)
         return logits
 
@@ -152,7 +152,7 @@ def main(args):
         
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Example script with command-line arguments")
-    parser.add_argument("--ckpt", type=str, default="./model_ckpt/ckpt.pt", help="model checkpoint")
+    parser.add_argument("--ckpt", type=str, default="./ckpt.pt", help="model checkpoint")
     parser.add_argument("--file_path", type=str, help="Resume file path")
     args = parser.parse_args()
     main(args)
