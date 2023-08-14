@@ -81,7 +81,7 @@ I evaluated the performance of my model on a separate set of 563 samples that we
 
 | evaluation metrics     | score       |
 | -----------            | ----------- |
-| Accuracy               | 81%         |
-| Precision              | 81%         |
-| recall                 | 81%         |
-| F1                     | 80%         |
+| Accuracy               | 83%         |
+| Precision              | 83%         |
+| recall                 | 83%         |
+| F1                     | 82%         |
