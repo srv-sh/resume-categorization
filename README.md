@@ -55,7 +55,7 @@ also i augmented few dataset to overcome overfitting issue
 
  ## Inferance
 
- Firstly download the checkpoint from this [Link](https://drive.google.com/file/d/15YIT4aia3AiwraAJM20vtU3Pxikg0LoT/view?usp=sharing) and move it to the root directory.
+ Firstly download the checkpoint from this [Link](https://drive.google.com/file/d/1YTyXmvbHbNxSRw05Z9jbONH5I4Pihb7Q/view?usp=sharing) and move it to the root directory.
 
  then run below script 
 
